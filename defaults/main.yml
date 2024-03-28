@@ -64,3 +64,6 @@ add_workers_to_hostfile: false
 
 # for setting up custom certificate request.  Set to template name to enable
 #microk8s_csr_template: null
+
+# when /snap/bin is not in the PATH
+microk8s_bin_path: ""
